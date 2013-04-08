@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.10.28)  5 NOV 2012 14:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.10.28)  9 NOV 2012 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1195,7 +1195,7 @@ LaTeX Info: Redefining \includegraphics on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./prezentace.nav) <logo_cvut.jpg, id=65, 365.9271pt x 277.9986pt>
+(./prezentace.nav) <logo_cvut.jpg, id=64, 365.9271pt x 277.9986pt>
 File: logo_cvut.jpg Graphic file (type jpg)
 
 <use logo_cvut.jpg>
@@ -1246,84 +1246,85 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ]
 [19
 
-] <otaznik.jpg, id=804, 100.375pt x 117.43875pt>
+] [20
+
+] [21
+
+] <otaznik.jpg, id=875, 100.375pt x 117.43875pt>
 File: otaznik.jpg Graphic file (type jpg)
- <use otaznik.jpg>
-Package pdftex.def Info: otaznik.jpg used on input line 117.
+
+<use otaznik.jpg>
+Package pdftex.def Info: otaznik.jpg used on input line 167.
 (pdftex.def)             Requested size: 121.59348pt x 142.26378pt.
- [20
+ [22
 
- <./otaznik.jpg>] [21
-
-] [22
-
-] [23
+ <./otaznik.jpg>] [23
 
 ] [24
 
 ] [25
 
-] (./prezentace.toc) [26
+] [26
 
 ] [27
 
-] [28
-
 ]
-(./prezentace.toc) [29
+(./prezentace.toc) [28
 
-] <faze0.jpg, id=1173, 578.16pt x 337.26pt>
+] <faze0.jpg, id=1134, 578.16pt x 337.26pt>
 File: faze0.jpg Graphic file (type jpg)
 
 <use faze0.jpg>
-Package pdftex.def Info: faze0.jpg used on input line 201.
-(pdftex.def)             Requested size: 260.8136pt x 152.1421pt.
+Package pdftex.def Info: faze0.jpg used on input line 198.
+(pdftex.def)             Requested size: 268.62106pt x 156.69206pt.
 
-Overfull \vbox (7.13281pt too high) detected at line 201
+Overfull \vbox (5.1828pt too high) detected at line 198
+ []
+
+[29
+
+ <./faze0.jpg>] <faze1.jpg, id=1167, 578.16pt x 337.26pt>
+File: faze1.jpg Graphic file (type jpg)
+ <use faze1.jpg>
+Package pdftex.def Info: faze1.jpg used on input line 207.
+(pdftex.def)             Requested size: 268.62106pt x 156.69206pt.
+
+Overfull \vbox (5.1828pt too high) detected at line 207
  []
 
 [30
 
- <./faze0.jpg>] <faze1.jpg, id=1207, 578.16pt x 337.26pt>
-File: faze1.jpg Graphic file (type jpg)
- <use faze1.jpg>
-Package pdftex.def Info: faze1.jpg used on input line 210.
-(pdftex.def)             Requested size: 260.8136pt x 152.1421pt.
+ <./faze1.jpg>] <faze2.jpg, id=1200, 578.16pt x 337.26pt>
+File: faze2.jpg Graphic file (type jpg)
+ <use faze2.jpg>
+Package pdftex.def Info: faze2.jpg used on input line 216.
+(pdftex.def)             Requested size: 268.62106pt x 156.69206pt.
 
-Overfull \vbox (7.13281pt too high) detected at line 210
+Overfull \vbox (5.1828pt too high) detected at line 216
  []
 
 [31
 
- <./faze1.jpg>] <faze2.jpg, id=1243, 578.16pt x 337.26pt>
-File: faze2.jpg Graphic file (type jpg)
- <use faze2.jpg>
-Package pdftex.def Info: faze2.jpg used on input line 219.
-(pdftex.def)             Requested size: 260.8136pt x 152.1421pt.
+ <./faze2.jpg>] <faze3.jpg, id=1234, 578.16pt x 337.26pt>
+File: faze3.jpg Graphic file (type jpg)
+ <use faze3.jpg>
+Package pdftex.def Info: faze3.jpg used on input line 225.
+(pdftex.def)             Requested size: 268.62106pt x 156.69206pt.
 
-Overfull \vbox (7.13281pt too high) detected at line 219
+Overfull \vbox (5.1828pt too high) detected at line 225
  []
 
 [32
-
- <./faze2.jpg>] <faze3.jpg, id=1276, 578.16pt x 337.26pt>
-File: faze3.jpg Graphic file (type jpg)
- <use faze3.jpg>
-Package pdftex.def Info: faze3.jpg used on input line 228.
-(pdftex.def)             Requested size: 260.8136pt x 152.1421pt.
-
-Overfull \vbox (7.13281pt too high) detected at line 228
- []
-
-[33
 
  <./faze3.jpg>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 250.
+(hyperref)                removing `\textasciicaron' on input line 247.
 
-(./prezentace.toc) [34
+(./prezentace.toc) [33
+
+] [34
 
 ] [35
 
@@ -1333,7 +1334,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+e'
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 276.
+(hyperref)                removing `\textasciicaron' on input line 282.
 
 (./prezentace.toc) [37
 
@@ -1345,7 +1346,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 295.
+(hyperref)                removing `\textasciicaron' on input line 301.
 
 [40
 
@@ -1355,13 +1356,13 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 316.
+(hyperref)                removing `\textasciicaron' on input line 322.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 340.
+LaTeX Font Info:    Try loading font information for U+msa on input line 346.
 (c:/Users/New/Programs/TexLive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 340.
+LaTeX Font Info:    Try loading font information for U+msb on input line 346.
 
 (c:/Users/New/Programs/TexLive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -1385,25 +1386,25 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@snm=\write8
 \openout8 = `prezentace.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
  (./prezentace.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 362.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
 Package rerunfilecheck Info: File `prezentace.out' has not changed.
-(rerunfilecheck)             Checksum: 47E782F363918C847022AD2281A3C077;603.
+(rerunfilecheck)             Checksum: C4320E8213B46D6241F6AC22B078587E;618.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
  ) 
 Here is how much of TeX's memory you used:
- 17778 strings out of 493488
- 334814 string characters out of 3138783
+ 17765 strings out of 493488
+ 334361 string characters out of 3138783
  406768 words of memory out of 3000000
- 20537 multiletter control sequences out of 15000+200000
+ 20526 multiletter control sequences out of 15000+200000
  12287 words of font info for 45 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,20n,65p,399b,1221s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1416,10 +1417,10 @@ ic/amsfonts/cm/cmss9.pfb><c:/Users/New/Programs/TexLive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmssbx10.pfb><c:/Users/New/Programs/TexLive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/New/Programs/TexLive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on prezentace.pdf (45 pages, 1849606 bytes).
+Output written on prezentace.pdf (45 pages, 1848112 bytes).
 PDF statistics:
- 1816 PDF objects out of 2073 (max. 8388607)
- 1689 compressed objects within 17 object streams
+ 1786 PDF objects out of 2073 (max. 8388607)
+ 1665 compressed objects within 17 object streams
  108 named destinations out of 1000 (max. 500000)
- 382 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 words of extra memory for PDF output out of 10000 (max. 10000000)
 

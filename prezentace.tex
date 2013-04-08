@@ -65,7 +65,7 @@
 				\begin {enumerate}
 					\item<1,3-> je část státu Aljaška v Severní Americe
 					\item<1,5-> je aplikace pro OS Mac zrychlující jeho animace
-					\item<1,7-> je nový typ clusteru nad Linuxových stroji
+					\item<1,7-> je nový typ clusteru nad Linuxovými stroji
 					\item<1,9-> je freewarová internetová hra typu Solitaire
 					\item<1,11-> je aplikace pro hledání zlata a ukládání jeho stavu ve světě
 				\end {enumerate}
@@ -84,6 +84,56 @@
 	\end{block}
 \end{frame}
 
+%----------------------------------------------Pojmy----------------------------------------------
+\subsection{Pojmy}
+\begin {frame}
+\frametitle {Pojmy - cluster}
+	\begin {block} {Cluster}
+		Cluster je seskupením volně vázaných počítačů, které spolu úzce spolupracují, takže navenek mohou vypadat jako jeden počítač.\cite{clanekClondike}
+	\end {block}
+	\begin {block} {Nededikovaný cluster}
+		Neexistuje jeden hlavní počítač (správce), takže všechny počítače jsou rovnocenné. Každý počítač může být odpojen, aniž by byl systém narušen nebo ohrožen. Jinak též P2P cluster.\cite{clanekClondike}
+	\end {block}
+\end {frame}
+
+
+\begin {frame}
+\frametitle {Pojmy - Uzly}
+	\begin {block} {Uzel}
+		Jedná se o běžící operační systém.\\
+		Obyčejně je uzel fyzický počítač, ovšem pro účely testování používáme virtualizaci, kdy na jednom libovolném hostujícím operačním systému běží několik stanic tvořící cluster. \cite{dpAndrejs}
+	\end {block}
+	\begin {block} {Domovský uzel}
+		Počítač, na kterém byl proces spuštěn.
+	\end {block}
+	\begin {block} {Hostitelský uzel}
+		Počítač, na který byl proces migrován.
+	\end {block}
+\end {frame}
+
+%comment
+\begin{comment}
+\begin {frame}
+\frametitle {Pojmy - Uživatelé 1}
+	\begin {block} {Administrátor clusteru}
+		Přestože se jedná o nededikovaný cluster, může existovat někdo, kdo rozhoduje o tom, kdo se smí připojit, kdo může migrovat apod.
+	\end {block}
+	\begin {block} {Uživatel clusteru}
+		Osoba, které je zapojena do clusteru a využívá ho (migruje procesy a dodává výpočetní výkon).
+	\end {block}
+\end {frame}
+
+\begin {frame}
+\frametitle {Pojmy - Uživatelé 2}
+	\begin {block} {Administrátor uzlu}
+		Administrátor alespoň jednoho uzlu clusteru, který má plný přístup (i fyzický) k uzlu.
+	\end {block}
+	\begin {block} {Lokální uživatel uzlu}
+		Uživatel uzlu, který není uživatelem clusteru.
+	\end {block}
+\end {frame}
+\end{comment}
+%end comment
 
 %----------------------------------------------Definice-----------------------------------
 %\section{Co je Clondike}
@@ -135,59 +185,6 @@
 			\end{itemize}
 		\end{itemize}
 \end {frame}
-
-
-%----------------------------------------------Pojmy----------------------------------------------
-\section{Pojmy}
-\begin {frame}
-\frametitle {Pojmy - cluster}
-	\begin {block} {Cluster}
-		Cluster je seskupením volně vázaných počítačů, které spolu úzce spolupracují, takže navenek mohou vypadat jako jeden počítač.
-	\end {block}
-	\begin {block} {Nededikovaný cluster}
-		Neexistuje jeden hlavní počítač (správce), takže všechny počítače jsou rovnocenné. Každý počítač může být odpojen, aniž by byl systém narušen nebo ohrožen. Jinak též P2P cluster.
-	\end {block}
-\end {frame}
-
-
-\begin {frame}
-\frametitle {Pojmy - Uzly}
-	\begin {block} {Uzel}
-		Jedná se o běžící operační systém.\\
-		Obyčejně je uzel fyzický počítač, ovšem pro účely testování používáme virtualizaci, kdy na jednom libovolném hostujícím operačním systému běží několik stanic tvořící cluster. \cite{dpAndrejs}
-	\end {block}
-	\begin {block} {Domovský uzel}
-		Počítač, na kterém byl proces spuštěn.
-	\end {block}
-	\begin {block} {Hostitelský uzel}
-		Počítač, na který byl proces migrován.
-	\end {block}
-\end {frame}
-
-%comment
-\begin{comment}
-\begin {frame}
-\frametitle {Pojmy - Uživatelé 1}
-	\begin {block} {Administrátor clusteru}
-		Přestože se jedná o nededikovaný cluster, může existovat někdo, kdo rozhoduje o tom, kdo se smí připojit, kdo může migrovat apod.
-	\end {block}
-	\begin {block} {Uživatel clusteru}
-		Osoba, které je zapojena do clusteru a využívá ho (migruje procesy a dodává výpočetní výkon).
-	\end {block}
-\end {frame}
-
-\begin {frame}
-\frametitle {Pojmy - Uživatelé 2}
-	\begin {block} {Administrátor uzlu}
-		Administrátor alespoň jednoho uzlu clusteru, který má plný přístup (i fyzický) k uzlu.
-	\end {block}
-	\begin {block} {Lokální uživatel uzlu}
-		Uživatel uzlu, který není uživatelem clusteru.
-	\end {block}
-\end {frame}
-\end{comment}
-%end comment
-
 
 %-------------------------------------------Jak to funguje--------------------------------------------
 \section{Jak to funguje}
@@ -249,25 +246,34 @@
 
 \section {Clondike nyní a moje úloha v něm}
 \begin {frame}
-\frametitle {Clondike nyní a moje úloha v něm}
+\frametitle {Clondike nyní}
 	\begin{block} {Nynější stav:}<1>
 		\begin{itemize}
 			\item na projektu se po odstávce opět začíná pracovat
+			\item nynější verze Clondike funguje v kernelu 2.6.33.1
 			\item nynější vývojový tým:
 			\begin {itemize}
 				\item 1 student -- disertační práce
 				\item 1 student -- diplomová práce
 				\item 3 studenti -- bakalářská práce
 			\end {itemize}
+			
 		\end {itemize}
 	\end {block}
-	\pause
-	\begin{block} {Moje role v projektu:}<2>
+	\begin {block} {Úkol}<2>
+				Vytvořit \alert{patch} Clondike, aby fungoval na kernelu 3.X, dodělat dokumentaci a případně vylepšit plánovač procesů.
+	\end {block}
+\end{frame}	
+
+\begin{frame}
+\frametitle {Já a Clondike}
+	\begin{block} {Moje role v projektu:}
 		\begin{itemize}
 			\item testování a měření
 			\item úprava a tvorba dokumentace
 			\item rešeršní studie open source hostingu pro kódy
 			\item založení a správa hostingu kódů a dat
+			\item poskytnutí technické podpory ostatním vývojářům
 		\end{itemize}
 	\end  {block}
 \end{frame}

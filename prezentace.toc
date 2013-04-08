@@ -2,11 +2,11 @@
 \select@language {czech}
 \beamer@sectionintoc {2}{Co je Clondike}{3}{0}{1}
 \beamer@subsectionintoc {2}{1}{H\IeC {\'a}danka}{4}{0}{1}
-\beamer@subsectionintoc {2}{2}{Definice}{16}{0}{1}
-\beamer@sectionintoc {3}{Pojmy}{26}{0}{2}
-\beamer@sectionintoc {4}{Jak to funguje}{29}{0}{3}
-\beamer@sectionintoc {5}{Clondike nyn\IeC {\'\i } a moje \IeC {\'u}loha v n\IeC {\v e}m}{34}{0}{4}
-\beamer@sectionintoc {6}{P\IeC {\v r}\IeC {\'\i }klad pou\IeC {\v z}it\IeC {\'\i }}{37}{0}{5}
-\beamer@subsectionintoc {6}{1}{Instituce}{38}{0}{5}
-\beamer@subsectionintoc {6}{2}{P\IeC {\v r}\IeC {\'a}tel\IeC {\'e}}{40}{0}{5}
-\beamer@sectionintoc {7}{Zdroje}{42}{1}{6}
+\beamer@subsectionintoc {2}{2}{Pojmy}{16}{0}{1}
+\beamer@subsectionintoc {2}{3}{Definice}{18}{0}{1}
+\beamer@sectionintoc {3}{Jak to funguje}{28}{0}{2}
+\beamer@sectionintoc {4}{Clondike nyn\IeC {\'\i } a moje \IeC {\'u}loha v n\IeC {\v e}m}{33}{0}{3}
+\beamer@sectionintoc {5}{P\IeC {\v r}\IeC {\'\i }klad pou\IeC {\v z}it\IeC {\'\i }}{37}{0}{4}
+\beamer@subsectionintoc {5}{1}{Instituce}{38}{0}{4}
+\beamer@subsectionintoc {5}{2}{P\IeC {\v r}\IeC {\'a}tel\IeC {\'e}}{40}{0}{4}
+\beamer@sectionintoc {6}{Zdroje}{42}{1}{5}
